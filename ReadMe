@@ -1,0 +1,74 @@
+========================================================================================================================
+
+Bedienung !
+-----------
+
+Die Bedienung ist ganz einfach,
+man muss einfach nur fragen gestellt werden wie z.B. "wie ist dein Name?"
+mit dem Cursor in die Konsole klicken, das gewünschte in die Konsole eintragen
+und mit "Enter" bestätigen.
+
+Das Spiel ist Rundenbasiert, als erstes sind die 4 Helden nach einander an der reihe
+und danach hat der Boss 2 zufällige angriffe.
+Das Spiel geht so lange bis entweder der Boss oder alle 4 Helden tod sind.
+
+Jeder Held hat 4 verschiedene Aktionen zu auswahl,
+einfach die gewünschte aktion mit der passenden Zahl in der Konsole eintragen und mit "Enter" bestätigen.
+
+========================================================================================================================
+
+Farben !
+--------
+
+Für die Klasse "Hero" habe ich extra die Konstanten für "Farben" mit dem passen "reset angelegt,
+damit ich die dann auf jeder Heldenklasse anwenden kann und nicht separat anlegen muss.
+
+========================================================================================================================
+
+Heldenklassen !
+------------------------------------------------------------------------------------------------------------------------
+
+Jäger !
+----------
+Gezielter Schuss   = diese Aktion verursacht 80-100 schaden.
+Giftpfeil          = diese Aktion verursacht 30-50 schaden aber vergiftet das Ziel für 3 runden mit 25-35 schaden.
+Ziel Markieren     = diese Aktion markiert das Ziel für 3 runden und erhöht sämtlichen schaden um 20%.
+Schildkrötenpanzer = diese Aktion sorgt dafür das der Held für 1 runde keinen schaden erleidet.
+
+Magier !
+----------
+Arkanschlag   = diese Aktion verursacht 70-100 schaden.
+Feuerschlag   = diese Aktion verursacht 30-50 schaden und setzt Ziel in brand für 3 runden mit 15-30 schaden.
+Arkane Blitze = diese Aktion verursacht 1-5 mal wenig schaden.
+Feuerwall     = diese Aktion sorgt dafür das der Held für 1 runde keinen schaden erleidet.
+
+Priester !
+----------
+Gruppenheal    = diese Aktion heilt die gesamte Gruppe für 50-80 Lebenspunkte.
+Singleheal     = diese Aktion heilt einen ausgewählten Helden für 100-120 Lebenspunkte.
+Schattenschlag = diese Aktion verursacht 70-90 schaden.
+Akranes Ei     = diese Aktion sorgt dafür das der Held für 1 runde keinen schaden erleidet.
+
+Krieger !
+----------
+Verwunden    = diese Aktion verursacht 25-35 schaden und verwundet das Ziel für 1 runde.
+Hieb         = diese Aktion verursacht 80-120 schaden.
+Schildschlag = diese Aktion verursacht 40-60 schaden.
+Schildwall   = diese Aktion sorgt dafür das der Held für 1 runde keinen schaden erleidet.
+
+========================================================================================================================
+
+Boss !
+----------
+
+Der Boss ist recht simple gehalten und kann 3 verschiedene angriffe ausführen,
+seine angriffe werden zufällig generiert und trifft dann je nach aktion,
+entweder alle Helden oder nur einen Held.
+
+Angriffe:
+Infinityschlag = diese Aktion trifft einen zufälligen Helden und verursacht 40-70 schaden.
+Spalten        = diese Aktion trifft alle Helden mit 30-45 schaden.
+Zerreissen     = diese Aktion trifft einen zufälligen Helden,
+                 verursacht 15-25schaden und lässt das ziel für eine runde 10-20 schaden.
+
+========================================================================================================================

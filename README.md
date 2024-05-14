@@ -1,1 +1,1 @@
-# RPG-Project-1
+# RPG-Project-1 (IntelliJ - Kotlin)
